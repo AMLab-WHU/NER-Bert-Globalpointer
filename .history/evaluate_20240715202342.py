@@ -9,8 +9,6 @@ from torch.utils.data import DataLoader, Dataset
 import numpy as np
 from tqdm import tqdm
 
-
-
 config = config.eval_config
 hyper_parameters = config["hyper_parameters"]
 

@@ -8,7 +8,6 @@ from torch.utils.data import DataLoader, Dataset
 import torch.nn as nn
 
 
-
 class MyDataset(Dataset):
     def __init__(self, data):
         self.data = data
