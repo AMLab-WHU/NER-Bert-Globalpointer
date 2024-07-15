@@ -1,6 +1,5 @@
 import torch
 
-
 def multilabel_categorical_crossentropy(y_true, y_pred):
     y_pred = (1 - 2 * y_true) * y_pred  # -1 -> pos classes, 1 -> neg classes
     y_pred_neg = y_pred - y_true * 1e12  # mask the pred outputs of pos classes
