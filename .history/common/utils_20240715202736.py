@@ -13,8 +13,6 @@ def multilabel_categorical_crossentropy(y_true, y_pred):
     return (neg_loss + pos_loss).mean()
 
 
-
-
 class Preprocessor(object):
     def __init__(self, tokenizer, add_special_tokens=True):
         super(Preprocessor, self).__init__()
