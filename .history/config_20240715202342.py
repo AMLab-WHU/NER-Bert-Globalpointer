@@ -27,7 +27,7 @@ train_config = {
         "max_seq_len": 256,
         "scheduler": "None"  
     }
-}
+
 eval_config = {
     "model_state_dir": "./outputs/split_1/",  
     "run_id": "",
